@@ -53,5 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes
 %{perl_vendorlib}/Test/More/UTF8.pm
-%{perl_vendorlib}/Test/More/UTF8
 %{_mandir}/man3/Test::More::UTF8.3pm*
