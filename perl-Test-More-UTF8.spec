@@ -8,7 +8,7 @@ Summary:	Test::More::UTF8 - Enhancing Test::More for UTF8-based projects
 Summary(pl.UTF-8):	Test::More::UTF8 - rozszerzenie Test::More dla projektów opartych na UTF-8
 Name:		perl-Test-More-UTF8
 Version:	0.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -52,5 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Test/More
 %{perl_vendorlib}/Test/More/UTF8.pm
 %{_mandir}/man3/Test::More::UTF8.3pm*
